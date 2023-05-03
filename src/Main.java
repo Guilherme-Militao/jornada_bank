@@ -1,6 +1,9 @@
 import java.util.Scanner;
-
 public class Main {
+	static String[][] usuarios = new String[20][4];// vetor de registro de usuários
+	static double[][] conta = new double[20][2];// vetor de registro de usuários
+	static boolean logado;
+	static int contidx = 0;
     public static void main(String[] args) {
 
         //TELA DE MENU
@@ -34,8 +37,72 @@ public class Main {
     }
 
     //método de Rgisto de usuário
-    public static void RegistrarUsuario(){
-       //INSERIR CÓDIGO AQUI
+	public static void registra() {
+		
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Informe o NOME COMPLETO: ");
+		String nome=scan.nextLine();
+		
+		System.out.println("Informe o CPF: ");
+		String cpf=scan.nextLine();
+		
+		System.out.println("Informe o EMAIL");
+		String email=scan.nextLine();
+		
+		System.out.println("Informe a SENHA: ");
+		String senha=scan.nextLine();
+		
+		usuarios[contidx][0]=nome;
+		usuarios[contidx][1]=cpf;
+		usuarios[contidx][2]=email;
+		usuarios[contidx][3]=senha;
+		
+		
+		System.out.println("Usuario registrado com sucesso !");
+		
+		contidx++;
 
-    }
+		
+	}
+	public static void imprimeUsuarios() {
+
+		for (int i = 0; i < contidx; i++) {
+
+			for (int j = 0; j <4; j++) {
+
+				System.out.println(usuarios[i][j]);
+			}
+
+			System.out.println();
+		}
+
+	}
+
+	public static void criarConta(){
+		boolean finded = false;
+		Scanner scan =  new Scanner(System.in);
+		System.out.println("Informe o cpf do titular: ");
+		String cpf = scan.nextLine();
+		System.out.println("Informe a senha do titular: ");
+		String senha = scan.nextLine();
+
+		for (int i =0;i<=contidx;i++){
+
+			if(cpf.equalsIgnoreCase(usuarios[i][1]) && senha.equals(usuarios[i][3])){
+
+				conta[i][0]= i;
+				conta[i][1]=0.0;
+
+				System.out.println("Conta criada com sucesso! ");
+				finded = true;
+				break;
+
+			}
+
+		}
+		if(!finded){
+			System.out.println("Usuario não encontrado! ");
+		}
+
+	}
 }

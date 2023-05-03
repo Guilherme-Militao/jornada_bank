@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb88d227-e8f3-4236-a157-65fd53341325" name="Changes" comment="first commit">
+    <list default="true" id="cb88d227-e8f3-4236-a157-65fd53341325" name="Changes" comment="criação do registro de usuário e criação de conta">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    </list>
+    <list id="07c4dcc8-03e8-4c80-a6d8-ee805eaeb18b" name="Changes by Antonio" comment="">
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    </list>
+    <list id="f5b3e6ff-9b49-41dd-918e-f1cb3441d8ee" name="Changes by rafae" comment="">
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -12,6 +21,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/src/Main.java">
+      <ranges>
+        <range start1="1" end1="2" start2="1" end2="1" changelist="cb88d227-e8f3-4236-a157-65fd53341325" />
+        <range start1="3" end1="3" start2="2" end2="6" changelist="cb88d227-e8f3-4236-a157-65fd53341325" />
+        <range start1="22" end1="23" start2="25" end2="27" changelist="07c4dcc8-03e8-4c80-a6d8-ee805eaeb18b" />
+        <range start1="26" end1="27" start2="30" end2="31" changelist="07c4dcc8-03e8-4c80-a6d8-ee805eaeb18b" />
+        <range start1="29" end1="30" start2="33" end2="34" changelist="f5b3e6ff-9b49-41dd-918e-f1cb3441d8ee" />
+        <range start1="32" end1="33" start2="36" end2="37" changelist="07c4dcc8-03e8-4c80-a6d8-ee805eaeb18b" />
+        <range start1="36" end1="38" start2="40" end2="106" changelist="cb88d227-e8f3-4236-a157-65fd53341325" />
+        <range start1="39" end1="40" start2="107" end2="108" changelist="cb88d227-e8f3-4236-a157-65fd53341325" />
+      </ranges>
+    </file>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -26,7 +49,9 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/milit/OneDrive/Área de Trabalho/projeto-jornada-bank",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -65,6 +90,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="criação do registro de usuário e criação de conta" />
+    <option name="LAST_COMMIT_MESSAGE" value="criação do registro de usuário e criação de conta" />
   </component>
 </project>
