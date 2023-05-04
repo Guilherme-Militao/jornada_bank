@@ -18,7 +18,8 @@ public class Main {
                     2-Criar conta
                     3-Realizar depósito
                     4-Realizar saque
-                    5-Realizar transferência""");
+                    5-Realizar transferência
+                    6-consultar saldo""");
             Scanner scanner = new Scanner(System.in);
             int opcao = Integer.parseInt(scanner.nextLine()); //variável que recebe a opção escolhida pelo usuário
             switch (opcao) { //switch case para executar a opção escolhida no menu
@@ -51,57 +52,62 @@ public class Main {
         System.out.println("---------- SESSÃO ENCERRADA ----------\n"+ "Obrigado pela preferência. Conte sempre o JORNADA BANK!");
     }
 
-    //método de Rgisto de usuário
-	public static void registra() {
-		
-		Scanner scan = new Scanner(System.in);
-		System.out.println("Informe o NOME COMPLETO: ");
-		String nome=scan.nextLine();
-		
-		System.out.println("Informe o CPF: ");
-		String cpf=scan.nextLine();
-		
-		System.out.println("Informe o EMAIL");
-		String email=scan.nextLine();
-		
-		System.out.println("Informe a SENHA: ");
-		String senha=scan.nextLine();
-		
-		usuarios[contidx][0]=nome;
-		usuarios[contidx][1]=cpf;
-		usuarios[contidx][2]=email;
-		usuarios[contidx][3]=senha;
-		
-		
-		System.out.println("Usuario registrado com sucesso !");
-		
-		contidx++;
 
-		
-	}
-	public static void imprimeUsuarios() {
 
-		for (int i = 0; i < contidx; i++) {
+    //método de Registo de usuário
+    public static void registra() {
 
-			for (int j = 0; j <4; j++) {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Informe o NOME COMPLETO: ");
+        String nome=scan.nextLine();
 
-				System.out.println(usuarios[i][j]);
-			}
+        System.out.println("Informe o CPF: ");
+        String cpf=scan.nextLine();
+
+        System.out.println("Informe o EMAIL");
+        String email=scan.nextLine();
+
+        System.out.println("Informe a SENHA: ");
+        String senha=scan.nextLine();
+
+        usuarios[contidx][0]=nome;
+        usuarios[contidx][1]=cpf;
+        usuarios[contidx][2]=email;
+        usuarios[contidx][3]=senha;
+
+
+        System.out.println("Usuario registrado com sucesso !");
+
+        contidx++;
+
+
+    }
+
+    public static void imprimeUsuarios() {
+    //Método pra verificação dos usuários (para controle interno. Não fica disponível na tela de menu)
+        for (int i = 0; i < contidx; i++) {
+            System.out.println("Dados do  usuário: ");
+            for (int j = 0; j <4; j++) {
+
+                System.out.print(usuarios[i][j]+" ");
+            }
 
             System.out.println();
         }
 
     }
 
-	public static void criarConta(){
-		boolean finded = false;
-		Scanner scan =  new Scanner(System.in);
-		System.out.println("Informe o cpf do titular: ");
-		String cpf = scan.nextLine();
-		System.out.println("Informe a senha do titular: ");
-		String senha = scan.nextLine();
+    //Método de criação de conta
+    public static void criarConta(){
+        boolean finded = false;
+        Scanner scan =  new Scanner(System.in);
+        System.out.println("Informe o cpf do titular: ");
+        String cpf = scan.nextLine();
+        System.out.println("Informe a senha do titular: ");
+        String senha = scan.nextLine();
 
-		for (int i =0;i<=contidx;i++){
+        //validação de conta(verificando se existe ou não)
+        for (int i =0;i<=contidx;i++){
 
             if(cpf.equalsIgnoreCase(usuarios[i][1]) && senha.equals(usuarios[i][3])){
 
@@ -119,7 +125,8 @@ public class Main {
             System.out.println("Usuario não encontrado! ");
         }
 
-	}
+
+    }
 
     //Método de depósito
     public static void deposito(){
