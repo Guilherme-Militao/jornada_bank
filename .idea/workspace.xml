@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb88d227-e8f3-4236-a157-65fd53341325" name="Changes" comment="" />
+    <list default="true" id="cb88d227-e8f3-4236-a157-65fd53341325" name="Changes" comment="ajustes">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <list id="07c4dcc8-03e8-4c80-a6d8-ee805eaeb18b" name="Changes by Antonio" comment="Changes by Antonio">
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -93,7 +95,7 @@
       <option name="presentableId" value="Default" />
       <updated>1682985628495</updated>
       <workItem from="1682985630821" duration="5941000" />
-      <workItem from="1683140740817" duration="11742000" />
+      <workItem from="1683140740817" duration="12094000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1682985668918</created>
@@ -109,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683160658514</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ajustes">
+      <created>1683160847915</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1683160847916</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,6 +139,7 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="criação do registro de usuário e criação de conta" />
     <MESSAGE value="criação das operações deposito, saque e transferência." />
-    <option name="LAST_COMMIT_MESSAGE" value="criação das operações deposito, saque e transferência." />
+    <MESSAGE value="ajustes" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajustes" />
   </component>
 </project>
