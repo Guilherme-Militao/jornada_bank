@@ -11,9 +11,10 @@
     <list id="07c4dcc8-03e8-4c80-a6d8-ee805eaeb18b" name="Changes by Antonio" comment="">
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
-    <list id="f5b3e6ff-9b49-41dd-918e-f1cb3441d8ee" name="Changes by rafae" comment="">
+    <list id="6b3a7791-c822-4472-97da-15d9cd974b15" name="Changes by milit" comment="">
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
+    <list id="f5b3e6ff-9b49-41dd-918e-f1cb3441d8ee" name="Changes by rafae" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,17 +23,35 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="7c08d1d5-5384-4382-b99a-6daf63fb3872" />
+        <option name="url" value="https://github.com/antoniobadaro/projeto-jornada-bank.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="LineStatusTrackerManager">
     <file path="$PROJECT_DIR$/src/Main.java">
       <ranges>
-        <range start1="1" end1="2" start2="1" end2="1" changelist="cb88d227-e8f3-4236-a157-65fd53341325" />
-        <range start1="3" end1="3" start2="2" end2="6" changelist="cb88d227-e8f3-4236-a157-65fd53341325" />
-        <range start1="22" end1="23" start2="25" end2="27" changelist="07c4dcc8-03e8-4c80-a6d8-ee805eaeb18b" />
-        <range start1="26" end1="27" start2="30" end2="31" changelist="07c4dcc8-03e8-4c80-a6d8-ee805eaeb18b" />
-        <range start1="29" end1="30" start2="33" end2="34" changelist="f5b3e6ff-9b49-41dd-918e-f1cb3441d8ee" />
-        <range start1="32" end1="33" start2="36" end2="37" changelist="07c4dcc8-03e8-4c80-a6d8-ee805eaeb18b" />
-        <range start1="36" end1="38" start2="40" end2="106" changelist="cb88d227-e8f3-4236-a157-65fd53341325" />
-        <range start1="39" end1="40" start2="107" end2="108" changelist="cb88d227-e8f3-4236-a157-65fd53341325" />
+        <range start1="10" end1="11" start2="10" end2="11" changelist="cb88d227-e8f3-4236-a157-65fd53341325" />
+        <range start1="20" end1="21" start2="20" end2="22" changelist="07c4dcc8-03e8-4c80-a6d8-ee805eaeb18b" />
+        <range start1="25" end1="26" start2="26" end2="27" changelist="cb88d227-e8f3-4236-a157-65fd53341325" />
+        <range start1="29" end1="30" start2="30" end2="31" changelist="cb88d227-e8f3-4236-a157-65fd53341325" />
+        <range start1="31" end1="31" start2="32" end2="47" changelist="cb88d227-e8f3-4236-a157-65fd53341325" />
+        <range start1="32" end1="33" start2="48" end2="49" changelist="cb88d227-e8f3-4236-a157-65fd53341325" />
+        <range start1="38" end1="39" start2="54" end2="57" changelist="07c4dcc8-03e8-4c80-a6d8-ee805eaeb18b" />
+        <range start1="66" end1="66" start2="84" end2="88" changelist="07c4dcc8-03e8-4c80-a6d8-ee805eaeb18b" />
+        <range start1="69" end1="70" start2="91" end2="92" changelist="6b3a7791-c822-4472-97da-15d9cd974b15" />
+        <range start1="72" end1="73" start2="94" end2="95" changelist="07c4dcc8-03e8-4c80-a6d8-ee805eaeb18b" />
+        <range start1="80" end1="80" start2="102" end2="103" changelist="07c4dcc8-03e8-4c80-a6d8-ee805eaeb18b" />
+        <range start1="105" end1="105" start2="128" end2="129" changelist="07c4dcc8-03e8-4c80-a6d8-ee805eaeb18b" />
+        <range start1="107" end1="107" start2="131" end2="312" changelist="cb88d227-e8f3-4236-a157-65fd53341325" />
       </ranges>
     </file>
   </component>
@@ -51,9 +70,28 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "C:/Users/milit/OneDrive/Área de Trabalho/projeto-jornada-bank",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="ProjetoJornadaBank" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -63,6 +101,7 @@
       <option name="presentableId" value="Default" />
       <updated>1682985628495</updated>
       <workItem from="1682985630821" duration="5941000" />
+      <workItem from="1683140740817" duration="11416000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1682985668918</created>
